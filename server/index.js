@@ -11,7 +11,7 @@ const app = express();
 dotenv.config();
 
 const dbConnect =
-  "mongodb+srv://bishal-admin:test123@cluster0.4vcvkz0.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://bishal-admin:test123@cluster0.4vcvkz0.mongodb.net/youtubeClone?retryWrites=true&w=majority";
 
 const connect = () => {
   mongoose
